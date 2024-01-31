@@ -195,7 +195,7 @@ app.get('/fruits/sort', (req, res) => {
    ```
    
    A couple important things to note:
-   - The `*` used for a route will cover _any_ route request made to our server, meaning that it will respond with this 404 message for any URL param chained on to `http://localhost:3001`
+   - The `*` used for a route will cover _any_ route request made to our server, meaning that it will respond with this 404 message for any URL param chained on to `http://localhost:3000`
    - That being said, since it will respond to _any_ route, we put it at the **bottom** of our server, so our other routes are still accessible while routes that don't exist will be sent to an error message
    - Use it wisely if you choose to
 
